@@ -77,7 +77,7 @@ function secondFactorial(theFoctorialNumber) {
   } else {
     return "number has to be positive";
   }
-};
+}
 
 let theNumber = 8;
 answer = secondFactorial(theNumber);

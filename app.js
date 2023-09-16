@@ -1,13 +1,12 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const router = require('./src/routers/api');
+const Router = require("./src/routes/api");
 
-app.use('/api' , router);
-
-
+app.use("/api", Router);
 
 
 
 
 
-module.exports = app; 
+
+module.exports = app;
